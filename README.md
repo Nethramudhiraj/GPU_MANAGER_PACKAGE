@@ -6,13 +6,8 @@ GPU_MANAGER PACKAGE
 Steps to setup the package and install:
 Download the acquire_release.py and setup.py files.
 Create a folder 'gpu_magaer' and place the acquire_release.py in it. Create another folder shared inside the 'gpu_magaer' folder. Create an empty file __init__.py file inside shared and also at acquire_release.py file path. setup.py should be outside the 'gpu_magaer' folder.
-.
-├── gpu_manager
-│   ├── acquire_release.py
-│   ├── __init__.py
-│   └── shared
-│       └── __init__.py
-└── setup.py
+![image](https://github.com/Nethramudhiraj/GPU_MANAGER_PACKAGE/assets/78190131/95890ea2-b32e-4772-8d64-5ba563569d64)
+
 
 Run the below command in the terminal with the gpu_manager folder and setup.py file path.
  python setup.py sdist
